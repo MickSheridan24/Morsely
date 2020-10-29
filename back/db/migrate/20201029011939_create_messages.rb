@@ -4,7 +4,7 @@ class CreateMessages < ActiveRecord::Migration[5.2]
       t.string :sender_id
       t.string :recipient_id
       t.string :body
-      t.bool :open
+      t.boolean :open
 
       t.timestamps
     end
